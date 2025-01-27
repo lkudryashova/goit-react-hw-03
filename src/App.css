@@ -41,12 +41,3 @@
   color: #888;
 }
 */
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 290px;
-  margin-left: 15px;
-  margin-top: 15px;
-}

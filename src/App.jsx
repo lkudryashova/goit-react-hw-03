@@ -1,7 +1,6 @@
 import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
 import ContactList from "./components/ContactList/ContactList";
-import s from "../src/app.module.css";
 import { useState, useEffect } from "react";
 
 const initialContacts = [
@@ -38,7 +37,7 @@ export default function App() {
   );
 
   return (
-    <div className={s.wrapper}>
+    <div className="wrapper">
       <h1>Phonebook</h1>
       <ContactForm onSubmit={addContact} />
       <SearchBox filter={filter} setFilter={setFilter} />
